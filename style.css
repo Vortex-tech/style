@@ -1,0 +1,178 @@
+
+*{
+
+margin : 0;
+
+padding: 0;
+}
+
+
+body {
+
+  margin: 0;
+font-family: 'Merriweather', serif;
+font-size: 1.3em; text-align:center; color: #545454;
+}
+
+
+
+.head-tag {
+
+font-size: 2.0rem;
+
+margin-top: 0;
+
+font-weight: normal;
+}
+
+h1 {
+
+margin: 0;
+
+font-family: 'Sacramento', cursive;
+
+font-size: 5.625rem;
+/* 100% is 16px if we want 90 px then 100/16= 6.25 then 6.25*90px =562.5%  */
+padding-top: 50px;
+color: #66BFBF;
+}
+
+h2 {
+  color:#66BFBF; font-family: 'Lobster Two', cursive; font-size: 3rem; font-weight: normal;
+}
+
+h3 {
+  color:#11999E
+}
+
+a {
+  color:#11999E;
+}
+
+.top-container{
+
+  background: rgb(62,112,215);
+  background: linear-gradient(180deg, rgba(62,112,215,1) 31%, rgba(59,192,233,1) 100%);
+   height: 630px; position: relative; margin:0; line-height: 2;
+}
+
+.heading {position: relative;/* bottom: -60px; */}
+
+/*
+hr {
+
+  width: 20%; border-style: dotted none none none; border-color: grey; border-width: 4px;
+  background-color: white;
+} */
+
+.middle-container {
+
+  margin-top : 10px;
+}
+
+
+
+
+#cloud-1 {
+
+  position:absolute; top:250px; right: 300px;
+
+
+}
+
+#cloud-2 {
+
+position:absolute;
+
+top: 190px;
+
+left: 220px;
+}
+
+#mountain {
+
+position: absolute;
+
+bottom: 0;
+
+left: 350px;
+
+margin: 0 auto;
+}
+
+
+.skill-row {
+/* When we set size to an element, use margin: auto to center it. */
+ width: 50%;   margin: 100px auto; text-align:left;
+line-height: 2;
+}
+
+.code-img-1 {
+
+  width:25%; height: 25%; float:left; margin-right: 30px;margin-bottom: 20px;
+}
+
+.code-img {
+
+  width: 25%; float:right; margin-left: 30px;
+}
+
+hr {
+width: 5%; background-color: white; border-style:dotted none none none;
+border-color: grey; border-width: 8px; text-align: center;
+margin: 75px auto; opacity: .2;
+
+}
+
+.intro-img {
+
+  margin: 20px 0;
+}
+
+
+.space {
+
+  margin-bottom: 25px;
+}
+
+.btn {
+width: 180px; background-color: #11999E; text-decoration: none; color:white;
+padding: 5px;  display: inline-block; border-radius: 5px; height: 30px; margin-bottom: 80px;
+margin-top: 20px;
+
+}
+
+.btn:hover {
+
+  background-color: lightblue;
+}
+
+.bottom-container {
+
+  background-color: #66BFBF; height: 160px;
+}
+
+.footer-link {
+
+color:#11999E;
+
+text-decoration: none;
+
+padding-right: 15px;
+
+margin-top: 40px;
+
+display: inline-block;
+}
+
+.last {
+
+margin: 20px 0 10px 0;
+
+color: white;
+}
+
+.footer-link:hover {
+
+  color:white;
+}
